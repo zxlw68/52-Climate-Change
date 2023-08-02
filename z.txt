@@ -1,0 +1,8 @@
+npm init
+npm i cheerio
+npm i express
+npm i axios
+
+"start": "nodemon index.js"
+
+npm i nodemon
