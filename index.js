@@ -16,7 +16,9 @@ const app = express()
 const articles = []
 
 app.get('/', (req, res) => {
-  res.json('Welcome to my recipe API')
+  res.json(
+    "'Welcome to my recipe API, use '/news' to access receipes from all sourses,use '/news/:newspaperId' eg. 'news/foodnetwork' to access receipes from a specific sourse"
+  )
 })
 
 newspapers.forEach((newspaper) => {
